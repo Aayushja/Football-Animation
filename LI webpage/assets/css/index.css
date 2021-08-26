@@ -1,0 +1,120 @@
+body{
+    size: 50%;
+    background-position: center;
+  }
+  
+    article{
+      display: flex;
+      margin: 1em 0;
+    }
+
+    section{
+      padding: 0 1em;
+      text-align: justify;
+      margin: 0 .5em;
+      width: 50%;
+    }
+
+    h1{
+      font-size: 56px;
+      font-weight: 400;
+      font-family: he;
+      text-align: center;
+    }
+    h2{
+      font-weight: 200;
+      font-style: italic;
+    }
+
+    .subheading{
+      text-align: center;
+      margin-left: 160px;
+      margin-right: 160px;
+    }
+
+    .one{
+     text-align: center;
+      text-decoration-line: underline;
+      
+    }
+    .two{
+      flex: 2;
+     
+    }
+  
+    .three{
+      flex: 2;
+    }
+  
+    .four{
+      text-align: center;
+    }
+
+    .five{
+      text-align: center;
+    }
+
+    .block section{
+      
+    }  
+
+    .x{
+
+      color: gray;
+      background-color:black;
+      border: 2px solid black;
+      border-radius: .5em;
+
+    }
+
+    .y{
+      color:black;
+      background-color: gray;
+      border: 2px solid black;
+      border-radius: .5em;
+    }
+
+    .z{
+      color: gray;
+      background-color: whitesmoke;
+      border: 2px solid black;
+      border-radius: .5em;
+    }
+  
+    .six{
+      text-align: center;
+    } 
+      .seven{
+        text-align: center;
+      }
+
+    .course{
+      text-decoration-line: underline;
+      text-align: center;
+    }
+    
+    .one section {
+      text-align: center;
+     
+      
+    }
+  
+  .two section {
+    
+    
+    
+  }
+  .full{
+   
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 250px;
+    margin-left: 250px;
+   
+  }
+  
+ 
+
+  .contact{
+    text-align: center;
+  }

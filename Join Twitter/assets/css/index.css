@@ -1,0 +1,94 @@
+.bg{
+     background: url("https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png");
+    width: 50vw;
+    height: 50vw;
+    float:left;
+  }
+ 
+body{
+ background-color: black;
+}
+
+.container{
+    margin-top: 100px;
+    
+}
+
+.contain {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;   
+}
+
+h1{
+    color:whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+.google{
+    padding:12.5px 71px 12.5px 71px;
+    background-color:white;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    border: none;
+    font color: "black";
+}
+
+.apple {
+    padding:12.5px 78px 12.5px 78px;
+    background-color:white;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+}
+
+.PE{
+    padding:12.5px 55px 12.5px 55px;
+    background-color:white;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+input[id="LI"]{
+    background-color: transparent;
+    border: none;
+    color:#008cff;
+    margin-top: 5px;
+
+}
+
+#btn{
+    background-color: transparent;
+    border: none;
+    color:#008cff; 
+    font-size: small;
+}
+
+a{
+    color:#008cff; 
+    text-decoration: none;
+}
+
+::placeholder {
+    color:black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+  }

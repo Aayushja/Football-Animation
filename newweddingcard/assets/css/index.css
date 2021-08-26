@@ -1,0 +1,46 @@
+body{
+    position: relative;
+  text-align: center;
+  
+    
+}
+img{
+    margin-top:120px;
+    margin-left: -320px;
+    position: absolute;
+    z-index:-1;
+    border: 2px solid black;
+    border-radius: .5em;
+}
+    .name{
+        color:#e75480;
+        font-size: 36px;
+        font-family:Comic Sans MS;
+        margin-top:125px;
+        margin-left: 680px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .x{
+        
+    }
+   
+.text{
+    margin-top: 400px;
+    margin-left: 500px;
+    position:absolute;
+    text-align: center;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+   
+   
+    
+   
+    

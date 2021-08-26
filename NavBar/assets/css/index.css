@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    top: 0;
+    width: 3rem;
+    padding: 0 .5em;
+    bottom: 0;
+    margin: 0;
+    left: 96%;
+    background-color: rgb(46, 0, 46);
+    position: fixed;
+    align-items: center;
+    padding-top: 2em;
+    border-radius: 1em 0 0 1em;
+    transition: all .2s;
+   
+}
+
+nav li{
+    font-size: 2em;
+    padding: .5em 0;
+    color: rgb(233, 1, 233);
+    cursor: pointer;
+    transition: color .5s;
+}
+
+nav li i{
+    transition: all .5s;
+}
+nav li:hover{
+    
+    color: white;
+}
+.span{
+    float:left;
+    display: none;
+    margin-left:.5em ;
+    transition: all .5s;
+
+}
+nav li i:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+nav:hover{
+    left: 86%;
+    align-items: flex-start;
+    width: 13rem;
+}
+
+nav:hover .span{
+    
+    display: inline;
+    transition: all .5s;
+} 
